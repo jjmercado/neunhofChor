@@ -14,17 +14,3 @@ for (let index = 0; index < sheetMusic.length; index++)
     img.id = `sheet-music${index}`;
     div.appendChild(img);
 }
-
-function placeNotes(left, top, right, bottom, id, width)
-{
-    let img  = document.getElementById("sheet-music"+id);
-    img.style.left = left+"rem";
-    img.style.top = top+"rem";
-    img.style.right = right+"rem";
-    img.style.bottom = bottom+"rem";
-    img.style.width = width;
-}
-
-placeNotes(10,10,0,0,0,10);
-placeNotes(10,10,0,0,1,10);
-placeNotes(5,5,0,0,22,100);
