@@ -5,11 +5,12 @@ const sheetMusic =  ["svg/note-vectors_Ebene 2.svg", "svg/note-vectors_Ebene 3.s
                     "svg/note-vectors_Ebene 18.svg", "svg/note-vectors_Ebene 19.svg", "svg/note-vectors_Ebene 20.svg", "svg/note-vectors_Ebene 21.svg",
                     "svg/note-vectors_Ebene 22.svg", "svg/note-vectors_Ebene 25.svg",
                     "svg/note-vectors_Ebene 26.svg"];
-
+                    
+                    
 for (let index = 0; index < sheetMusic.length; index++) 
 {
     const div = document.getElementById("sheet-music");
-    const img = document.createElement("img");
+    let img = document.createElement("img");
     img.src = sheetMusic[index];
     img.id = `sheet-music${index}`;
     div.appendChild(img);
