@@ -1,6 +1,6 @@
 #sheet-music
 {
-    margin-top: 15rem;
+    margin-top: 4rem;
 }
 
 #sheet-music img
@@ -10,6 +10,7 @@
 
 #bezier-curve-notes
 {
+    position: relative;
     padding-bottom: 1rem;
     width: 100%;
 }
@@ -316,7 +317,7 @@
 
 @keyframes levitate 
 {
-    0% { transform: translateY(0px) rotate(-1deg); }
-    50% { transform: translateY(-2px) rotate(1deg); }
-    100% { transform: translateY(0px) rotate(-1deg); }
+    0% { transform: translateY(0px) rotate(-2deg); }
+    50% { transform: translateY(-5px) rotate(1deg); }
+    100% { transform: translateY(0px) rotate(-2deg); }
 }

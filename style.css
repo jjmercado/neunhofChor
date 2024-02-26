@@ -1,7 +1,7 @@
-*
+/* *
 {
     border: 1px solid red;   
-}
+} */
 
 body
 {
@@ -12,11 +12,23 @@ body
     padding: 0;
 }
 
-.start-content
+.start-text
 {
     display: flex;
     justify-content: center;
     flex: 1;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.village
+{
+    font-size: 4rem;   
+}
+
+#container-start-text
+{
+    margin-top: 3rem;
 }
 
 
