@@ -1,6 +1,6 @@
 #sheet-music
 {
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 #sheet-music img
@@ -10,7 +10,7 @@
 
 #bezier-curve-notes
 {
-    position: relative;
+    /* position: relative; */
     padding-bottom: 1rem;
     width: 100%;
 }

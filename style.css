@@ -1,13 +1,13 @@
 /* *
 {
-    border: 1px solid red;   
+    border: 1px solid red; 
 } */
 
 body
 {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0;
     padding: 0;
 }
@@ -16,7 +16,6 @@ body
 {
     display: flex;
     justify-content: center;
-    flex: 1;
     font-size: 2rem;
     margin: 0.5rem;
 }
@@ -29,6 +28,20 @@ body
 #container-start-text
 {
     margin-top: 3rem;
+}
+
+.greeting-text
+{
+    margin: auto;
+    max-width: 50rem;
+    position: initial;
+}
+
+#logo
+{
+    width: 20%;
+    padding-top: 2rem;
+    margin: auto;
 }
 
 
