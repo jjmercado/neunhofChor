@@ -3,6 +3,11 @@
     border: 1px solid red; 
 } */
 
+@font-face {
+    font-family: indie_flower;
+    src: url(font/Indie_Flower/IndieFlower-Regular.ttf);
+}
+
 body
 {
     display: flex;
@@ -27,21 +32,53 @@ body
 
 #container-start-text
 {
-    margin-top: 3rem;
+    margin-top: 7rem;
+    font-family: indie_flower;
 }
 
-.greeting-text
+#container-start-text p
+{
+    margin: 0;
+}
+
+#container-start-text img
+{
+    position: absolute;
+    width: 30%;
+    left: 36%;
+    z-index: -1;
+    top: 5%;
+}
+
+.about-text
 {
     margin: auto;
-    max-width: 50rem;
+    max-width: 40rem;
     position: initial;
 }
 
 #logo
 {
     width: 20%;
-    padding-top: 2rem;
-    margin: auto;
+    margin: 5rem auto auto auto;
+}
+
+#about
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#parallax
+{
+    background-image: url(svg/background.svg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 

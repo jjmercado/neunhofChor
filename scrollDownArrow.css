@@ -1,0 +1,42 @@
+.scroll-down-arrow 
+{
+  left: 49%;
+  bottom: 5%;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  animation: scroll 1.5s infinite;
+}
+
+.scroll-down-arrow span 
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.scroll-down-arrow span:nth-child(2) 
+{
+  top: calc(50% + 6px);
+}
+
+.scroll-down-arrow span:nth-child(3)
+{
+  top: calc(50% + 12px);
+}
+
+@keyframes scroll 
+{
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}

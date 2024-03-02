@@ -34,14 +34,6 @@ function showSlides()
   id = setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
 
-// Thumbnail image controls
-function currentSlide(n) 
-{
-    n -= 1;
-    clearTimeout(id);
-    showSlides(slideIndex = n);
-}
-
 // Next/previous controls
 function plusSlides(n) 
 {
