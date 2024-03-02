@@ -8,6 +8,11 @@
     src: url(font/Indie_Flower/IndieFlower-Regular.ttf);
 }
 
+@font-face {
+    font-family: great_vibes;
+    src: url(font/Great_Vibes/GreatVibes-Regular.ttf);
+}
+
 body
 {
     display: flex;
@@ -32,12 +37,12 @@ body
 
 #container-start-text
 {
-    margin-top: 7rem;
-    font-family: indie_flower;
+    margin-top: 9rem;
 }
 
 #container-start-text p
 {
+    font-family: great_vibes;
     margin: 0;
 }
 
@@ -60,7 +65,7 @@ body
 #logo
 {
     width: 20%;
-    margin: 5rem auto auto auto;
+    margin: 10rem auto auto auto;
 }
 
 #about
