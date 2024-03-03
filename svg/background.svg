@@ -10,6 +10,8 @@
    inkscape:export-filename="background.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
+   sodipodi:docname="background.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,7 +26,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="px" />
+     inkscape:document-units="px"
+     inkscape:zoom="0.58385417"
+     inkscape:cx="959.99999"
+     inkscape:cy="540.37466"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs1">
     <symbol
@@ -123,6 +134,25 @@
          sodipodi:nodetypes="ccsssccssccsccscccscssccscsc"
          id="path23" />
     </symbol>
+    <symbol
+       id="ms_beamed_notes_8a">
+      <title
+         id="title56">Beamed notes 8A</title>
+      <path
+         d="m 20.53749,0 v 56.0078 c -2.8167,-2.4711 -8.2853,-2.8232 -13.119099,-0.7813 -5.9301,2.505 -8.6562,7.6618 -6.8847999,11.8555 1.7715999,4.1938 7.3706999,5.8351 13.3007989,3.3301 5.6523,-2.3877 9.5529,-7.6767 8.3731,-11.7989 V 5.8847 h 48.33 v 50.1231 c -2.8166,-2.4711 -8.2853,-2.8232 -13.1191,-0.7813 -5.9302,2.505 -8.6562,7.6618 -6.8848,11.8555 1.7715,4.1938 7.3707,5.8351 13.3008,3.3301 5.652,-2.3877 9.5529,-7.6767 8.3731,-11.7989 V 0 Z"
+         inkscape:connector-curvature="0"
+         id="path56" />
+    </symbol>
+    <symbol
+       id="ms_rest_8">
+      <title
+         id="title34">rest 8</title>
+      <path
+         sodipodi:nodetypes="sscsssssscsss"
+         inkscape:connector-curvature="0"
+         d="m 2e-4,5.81586 c -5e-4,3.21323 2.6048,5.77537 5.8178,5.81773 3.6589,0.0471 7.3755,-1.44429 9.7201,-3.41674 -1.1447,7.64718 -5.9436,20.69543 -7.9209,25.29558 -0.4601,1.06988 3.9207,0.89405 4.1213,-0.0684 C 12.9528,27.61857 17.1242,11.79436 18.7512,8.2558 19.4315,6.77621 20.4525,3.94266 20.9335,3.07068 21.191,2.60382 20.784,2.04686 20.1171,2.80587 19.0444,4.02693 17.9417,4.84018 17.287,5.20697 15.4397,6.24178 13.0989,7.3343 11.4453,7.25339 11.5677,6.78383 11.6333,6.30072 11.6333,5.81548 11.6333,2.60382 9.0294,5.600903e-4 5.8177,9.031955e-8 2.6053,-5.599097e-4 6e-4,2.60304 0,5.81548 Z"
+         id="path34" />
+    </symbol>
   </defs>
   <g
      inkscape:label="Ebene 1"
@@ -146,12 +176,12 @@
     <use
        xlink:href="#ms_note_16r"
        id="use1-1"
-       transform="translate(1394.9587,148.66172)"
+       transform="translate(1456.6179,200.87853)"
        style="fill:#eee7be;fill-opacity:1" />
     <use
        xlink:href="#ms_note_2r"
        id="use1-2"
-       transform="matrix(1.4458875,0,0,1.4458875,1591.0381,96.102369)"
+       transform="matrix(1.4458875,0,0,1.4458875,1630.4315,340.34658)"
        style="fill:#eee7be;fill-opacity:1" />
     <use
        xlink:href="#ms_rest_32"
@@ -161,22 +191,32 @@
     <use
        xlink:href="#ms_g_clef"
        id="use1-21"
-       transform="translate(573.93033,37.964146)"
+       transform="translate(575.6431,409.34879)"
        style="fill:#eee7be;fill-opacity:1" />
     <use
        xlink:href="#ms_note_2"
        id="use1-0"
-       transform="translate(903.40251,108.10997)"
+       transform="translate(917.10456,184.3114)"
        style="fill:#eee7be;fill-opacity:1" />
     <use
        xlink:href="#ms_note_8r"
        id="use1-5"
-       transform="translate(1182.5826,37.88637)"
+       transform="translate(1357.2838,408.00064)"
        style="fill:#eee7be;fill-opacity:1" />
     <use
        xlink:href="#ms_note_32"
        id="use1-9"
-       transform="translate(1576.6012,378.93656)"
+       transform="translate(1526.7636,565.62702)"
+       style="fill:#eee7be;fill-opacity:1" />
+    <use
+       xlink:href="#ms_beamed_notes_8a"
+       id="use1-55"
+       transform="matrix(0.69693935,0,0,0.69693935,1191.8372,150.98086)"
+       style="fill:#eee7be;fill-opacity:1" />
+    <use
+       xlink:href="#ms_rest_8"
+       id="use1-51"
+       transform="translate(628.35237,202.95142)"
        style="fill:#eee7be;fill-opacity:1" />
   </g>
 </svg>
