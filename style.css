@@ -22,21 +22,42 @@ body
     padding: 0;
 }
 
+#home
+{
+    margin-top: 3rem;
+    color: white;
+}
+
+svg
+{
+    position: relative;
+    left: 23rem;
+    max-width: 2rem;
+    max-height: 2rem;
+    color: #000;
+    align-self: center;
+}
+
+svg:hover
+{
+    cursor: pointer;
+    color: red;
+}
+
 nav
 {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     width: 100%;
     position: fixed;
     z-index: 1;
-    background-color: white;
 }
 
-nav div 
+nav img
 {
-    width: 40rem;
-    justify-content: end;
-    display: flex;
+    padding: 0.5rem;
+    margin: auto auto auto 1rem;
+    width: 3%;
 }
 
 nav ul
@@ -44,13 +65,15 @@ nav ul
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 3rem;
+    margin-right: 2rem;
     list-style-type: none;
 }
 
 a
 {
     text-decoration: none;
+    color: white;
 }
 
 .start-text
@@ -59,11 +82,6 @@ a
     justify-content: center;
     font-size: 2rem;
     margin: 0.5rem;
-}
-
-.village
-{
-    font-size: 4rem;   
 }
 
 #container-start-text
@@ -91,14 +109,17 @@ a
     margin: auto;
     max-width: 40rem;
     position: initial;
+    background-color: white;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4);
+    padding: 1rem;
 }
 
-#logo
+/* #logo
 {
     width: 20%;
-    margin: 10rem auto auto auto;
+    margin: 5rem auto auto auto;
     filter: drop-shadow(5px 10px 15px rgba(0, 0, 0, 0.4));
-}
+} */
 
 #about
 {
@@ -107,16 +128,82 @@ a
     gap: 5rem;
 }
 
-#parallax
+footer
 {
-    background-image: url(svg/background.svg);
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    background-color: lightblue;
+    height: 5rem;
+    gap: 0.5rem;
 }
 
+footer div
+{
+    display: flex;
+    gap: 0.5rem;
+}
 
+footer p
+{
+    font-size: 0.5rem;
+}
 
+#gradient-background
+{
+    background: linear-gradient(-45deg, #36018d, #3f0052, #5d0081, #9243f8);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;    
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.star
+{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: blinking-star 20s linear infinite;
+}
+
+@keyframes blinking-star
+{
+    0%,100%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+}
+
+.container 
+{
+    text-align: center;
+}
+  
+.text-container 
+{
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    border-right: 2px solid #333;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
