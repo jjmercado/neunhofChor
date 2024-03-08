@@ -1,0 +1,59 @@
+#concerts
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+}
+
+#concert-table
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    color: black;
+    border-collapse: collapse;
+}
+
+#concert-table th,td 
+{
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+#container-concert
+{
+    background-color: lightgray;
+    box-shadow: 5px 10px 15px lightgray;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+#container-concert h1
+{
+    color: black;
+    text-align: center;
+}
+
+table tr:first-child th 
+{
+    border-top: none;
+}
+
+table tr:last-child td 
+{
+    border-bottom: none;
+}
+
+table tr td:first-child,
+table tr th:first-child 
+{
+    border-left: none;
+}
+
+table tr td:last-child,
+table tr th:last-child 
+{
+    border-right: none;
+}
