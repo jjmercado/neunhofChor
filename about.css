@@ -1,0 +1,40 @@
+
+#about
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#container-about
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.about-text
+{
+    font-size: 2rem;
+    color: #000;
+}
+
+.about-card
+{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    margin: auto;
+    background-color: lightgray;
+    width: 80%;
+    padding: 2rem;
+    gap: 2rem;
+    border-radius: 2rem;
+    box-shadow: 5px 10px 15px rgba(255, 255, 255, 0.4);
+}
+
+.about-card img
+{
+    width: 50%;
+    border-radius: 2rem;
+}
