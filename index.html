@@ -4,22 +4,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chorgemeinschaft Neunhof</title>
     <link rel="stylesheet" href="global-style.css">
-    <link rel="stylesheet" href="scrollDownArrow.css">
-    <link rel="stylesheet" href="slideShow.css">
-    <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="star.css">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="concerts.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="styles/scrollDownArrow.css">
+    <link rel="stylesheet" href="styles/slider.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/star.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/concerts.css">
+    <link rel="stylesheet" href="styles/contact.css">
 
     <link rel="icon" href="img/Logo.jpg">
 
-    <script src="textScroll.js" defer></script>
-    <script src="slideShow.js" defer></script>
-    <script src="parallax.js" defer></script>
-    <script src="generateStars.js" defer></script>
+    <script src="scripts/textScroll.js" defer></script>
+    <script src="scripts/slider.js" defer></script>
+    <script src="scripts/parallax.js" defer></script>
+    <script src="scripts/generateStars.js" defer></script>
     <!-- <script src="handwriting.js" defer></script> -->
 </head>
 <body>
@@ -81,6 +81,7 @@
                     <img src="img/chor2.jpg" class="img-resp" alt="Chor">
                 </div>
         </div>
+          
         <div id="concerts">
             <div id="container-concert">
                 <h1>Konzerte</h1>
@@ -158,8 +159,34 @@
                 </table>
             </div>
         </div>
+
+        <div class="slideshow-container">
+            <div id="slideshow-card">
+                <div class="slide fade">
+                  <img src="/img/chor.JPG">
+                </div>
+              
+                <div class="slide fade">
+                  <img src="/img/chor1.JPG">
+                </div>
+              
+                <div class="slide fade">
+                  <img src="/img/chor2.JPG">
+                </div>
+              
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
         <div id="contact">
-            <h1>Wie man uns erreichen kann</h1>
+            <div id="container-contact">
+                <h1>Wie man uns erreichen kann</h1>
+                <p>
+                    Bei Fragen oder Anregungen kannst Du uns gerne kontaktieren.
+                    Wir freuen uns auf eure anfragen!
+                </p>
+            </div>
         </div>
         <footer>
             <div>

@@ -19,6 +19,12 @@
     color: #000;
 }
 
+.about-card img
+{
+    width: 50%;
+    border-radius: 2rem;
+}
+
 .about-card
 {
     display: flex;
@@ -31,10 +37,4 @@
     gap: 2rem;
     border-radius: 2rem;
     box-shadow: 5px 10px 15px rgba(255, 255, 255, 0.4);
-}
-
-.about-card img
-{
-    width: 50%;
-    border-radius: 2rem;
 }

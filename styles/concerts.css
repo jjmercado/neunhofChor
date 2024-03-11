@@ -24,10 +24,12 @@
 
 #container-concert
 {
+    color: #fff;
     background-color: lightgray;
     box-shadow: 5px 10px 15px lightgray;
     border-radius: 2rem;
     padding: 2rem;
+    width: 80%;
 }
 
 #container-concert h1
