@@ -20,12 +20,13 @@
     <script src="scripts/slider.js" defer></script>
     <script src="scripts/parallax.js" defer></script>
     <script src="scripts/generateStars.js" defer></script>
-    <!-- <script src="handwriting.js" defer></script> -->
+    <script src="scripts/smoothScroll.js" defer></script>
+    <script src="scripts/scrollTop.js" defer></script>
 </head>
 <body>
     <div id="parallax">
         <nav>
-            <img id="logo" src="img/Logo.png">
+            <img id="logo" src="img/Logo.png" onclick="topFunction()">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">Über uns</a></li>
@@ -188,6 +189,7 @@
                 </p>
             </div>
         </div>
+        <button id="getToTopButton" onclick="topFunction()">&#8657;</button>
         <footer>
             <div>
                 <a href="pages/imprint.html">Impressum</a>
@@ -196,7 +198,6 @@
             <p>© 2024 Chorgemeinschaft Neunhof</p>
         </footer>
     </div>
-
 </body>
 </html>
 

@@ -33,3 +33,26 @@ a
     background-repeat: no-repeat;
     background-size: 100vw;
 }
+
+#getToTopButton
+{
+    display: none;
+    position: fixed;
+    bottom: 1rem;
+    width: 4rem;
+    right: 2rem;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: darkgrey;
+    color: black;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 2rem;  
+}
+
+#getToTopButton:hover
+{
+    background-color: lightgray;
+}
