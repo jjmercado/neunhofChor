@@ -28,7 +28,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="0.82569448"
-     inkscape:cx="1006.4255"
+     inkscape:cx="1005.82"
      inkscape:cy="79.327162"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
@@ -85,7 +85,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect1);shape-padding:0;display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.234;stroke-opacity:1"
        transform="translate(6.0911597,-3.9341681)"><tspan
          x="345.97656"
-         y="207.09035"
-         id="tspan1">GESANGVEREIN 1848 NEUNHOF </tspan></text>
+         y="208.14617"
+         id="tspan3"><tspan
+           style="font-family:'Lucida Sans';-inkscape-font-specification:'Lucida Sans'"
+           id="tspan2">GESANGVEREIN 1848 NEUNHOF </tspan></tspan></text>
   </g>
 </svg>
