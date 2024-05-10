@@ -1,6 +1,6 @@
 #home
 {
-    margin-top: 3rem;
+    margin-top: 5rem;
     color: white;
 }
 
@@ -8,18 +8,21 @@
 {
     display: flex;
     height: 100vh;
-    width: 100%;
-    justify-content: right;
-    align-items: center;
+    align-items: csenter;
 }
 
 .text-container
 {
     display: flex;
-    text-align: right;
+    margin-left: auto;
     flex-direction: column;
     width: 50%;
     height: 80%;
+}
+
+.barline-container img
+{
+    width: 100%;
 }
 
 .svg-container
