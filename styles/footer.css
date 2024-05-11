@@ -7,7 +7,7 @@ footer
     font-size: 0.7rem;
     background-color: rgb(255, 221, 152);
     height: 15rem;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 footer div
@@ -20,9 +20,23 @@ footer p
 {
     color: #000;
     font-size: 1rem;
+    margin: 0;
 }
 
 footer a
 {
     color: #000;
+}
+
+footer img
+{
+    width: 3%;
+    padding: 1rem;
+}
+
+.brands-container
+{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
