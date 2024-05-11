@@ -25,3 +25,16 @@ nav ul
     margin-right: 2rem;
     list-style-type: none;
 }
+
+nav a
+{
+    transition: all 0.5s ease;
+}
+
+nav a:hover
+{
+    background-color: rgb(255, 221, 152);
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+}

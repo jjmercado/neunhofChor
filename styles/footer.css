@@ -5,7 +5,7 @@ footer
     align-items: center;
     justify-content: center;
     font-size: 0.7rem;
-    background-color: lightgray;
+    background-color: rgb(255, 221, 152);
     height: 15rem;
     gap: 2rem;
 }

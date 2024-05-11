@@ -9,6 +9,9 @@ body
     background-color: white;
     color: black;
     font-family: Arial, 'Arial Narrow';
+    background-image: url(svg/background.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 a
@@ -18,12 +21,12 @@ a
     color: black;
 }
 
-#parallax
+/* #parallax
 {
     background-image: url(svg/background.svg);
     background-repeat: no-repeat;
     background-size: 100vw;
-}
+} */
 
 #getToTopButton
 {

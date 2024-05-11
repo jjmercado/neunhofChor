@@ -15,7 +15,7 @@
 
 .about-text
 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #000;
 }
 
@@ -31,10 +31,20 @@
     color: #fff;
     justify-content: space-between;
     margin: auto;
-    background-color: lightgray;
+    background-color: rgb(255, 221, 152);
     width: 80%;
     padding: 2rem;
     gap: 2rem;
     border-radius: 2rem;
-    box-shadow: 5px 10px 15px rgba(255, 255, 255, 0.4);
+    box-shadow: 5px 10px 15px lightgray;
+}
+
+#container-text-scroll
+{
+    margin: 0 3rem 0 3rem;
+}
+
+#text-scroll
+{
+    text-align: center;
 }
