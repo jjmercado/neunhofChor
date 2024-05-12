@@ -28,15 +28,15 @@ footer a
     color: #000;
 }
 
-footer img
-{
-    width: 3%;
-    padding: 1rem;
-}
-
 .brands-container
 {
     display: flex;
     justify-content: center;
     gap: 1rem;
+}
+
+.brands-container img
+{
+    width: 3rem;
+    padding: 1rem;
 }
