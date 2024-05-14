@@ -16,6 +16,7 @@
 
     <link rel="icon" href="img/Logo.png">
 
+    <script src="scripts/setButtonsActive.js" defer></script>
     <script src="scripts/textScroll.js" defer></script>
     <script src="scripts/slider.js" defer></script>
     <!-- <script src="scripts/parallax.js" defer></script> -->
@@ -30,7 +31,7 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">Über uns</a></li>
-                <li><a href="#concerts">Konzerte</a></li>
+                <!-- <li><a href="#concerts">Konzerte</a></li> -->
                 <li><a href="#contact">Kontakt</a></li>
             </ul>
         </nav>
@@ -71,11 +72,17 @@
         
             <div id="container-about">
                 <div class="about-card">
-                    <img src="./img/chor.jpg" alt="Chor">
-                    <p class="about-text">Unser Gesangsverein 1848, Neunhofs ältester Verein, trägt die stolze Last einer reichen Chorgeschichte, die bis ins Jahr 1848 zurückreicht. Unsere Freude am Singen ist seitdem unvermindert und hat sich durch die Jahrzehnte hindurch fortgesetzt.<br>
-                        <br>
-                        Im Laufe der Zeit hat sich unser Repertoire stetig weiterentwickelt, und wir haben uns musikalisch keine Grenzen gesetzt. Genres und Epochen durchqueren wir mit Freude und Hingabe. Unser meist dreistimmiger Chor, bestehend aus Sopran, Alt und einer dritten Stimme, besteht aus ungefähr 21 enthusiastischen Mitgliedern.<br>
-                    </p>
+                    <div class="chor-buttons">
+                        <button id="chor-button1" onclick="toggleButton()">Klangkraft</button>
+                        <button id="chor-button2" onclick="toggleButton()">Nona</button>
+                    </div>
+                    <div class="about-card-text">
+                        <img src="./img/chor.jpg" alt="Chor">
+                        <p class="about-text">Unser Gesangsverein 1848, Neunhofs ältester Verein, trägt die stolze Last einer reichen Chorgeschichte, die bis ins Jahr 1848 zurückreicht. Unsere Freude am Singen ist seitdem unvermindert und hat sich durch die Jahrzehnte hindurch fortgesetzt.<br>
+                            <br>
+                            Im Laufe der Zeit hat sich unser Repertoire stetig weiterentwickelt, und wir haben uns musikalisch keine Grenzen gesetzt. Genres und Epochen durchqueren wir mit Freude und Hingabe. Unser meist dreistimmiger Chor, bestehend aus Sopran, Alt und einer dritten Stimme, besteht aus ungefähr 21 enthusiastischen Mitgliedern.<br>
+                        </p>
+                    </div>
                 </div>
                 <div class="about-card">
                     <p class="about-text">

@@ -29,12 +29,13 @@
 {
     display: flex;
     color: #fff;
+    flex-direction: column;
     justify-content: space-between;
     margin: auto;
     background-color: rgb(255, 221, 152);
     width: 80%;
-    padding: 2rem;
-    gap: 2rem;
+    padding: 0 2rem 2rem 2rem;
+    /* gap: 2rem; */
     border-radius: 2rem;
     box-shadow: 5px 10px 15px lightgray;
 }
@@ -47,4 +48,36 @@
 #text-scroll
 {
     text-align: center;
+}
+
+.chor-buttons
+{
+    display: flex;
+    gap: 1rem;
+}
+
+.chor-buttons button
+{
+    flex: auto;
+    font-size: 2rem;
+    height: 6rem;
+    border: none;
+    background-color: rgb(255, 221, 152);
+    /* box-shadow: #000 0px 0px 10px; */
+    /* border-radius: 0 0 2rem 2rem; */
+    cursor: pointer;
+}
+
+button.active
+{
+    /* background-color: rgb(255, 221, 152); */
+    background-color: rgb(233, 202, 139);
+}
+
+.about-card-text
+{
+    display: flex;
+    gap: 1rem;
+    /* box-shadow: #000 0px 0px 10px; */
+    background-color: rgb(233, 202, 139);
 }

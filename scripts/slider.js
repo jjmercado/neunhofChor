@@ -19,7 +19,7 @@ function showSlides(n)
   let slides = document.getElementsByClassName("slide");
   if (n > slides.length)
   {
-        slideIndex = 1
+    slideIndex = 1
   }
 
   if (n < 1) 
