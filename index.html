@@ -13,14 +13,12 @@
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/concerts.css">
     <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/tabs.css">
 
     <link rel="icon" href="img/Logo.png">
 
-    <!-- <script src="scripts/setButtonsActive.js" defer></script> -->
     <script src="scripts/textScroll.js" defer></script>
     <script src="scripts/slider.js" defer></script>
-    <!-- <script src="scripts/parallax.js" defer></script> -->
-    <!-- <script src="scripts/generateStars.js" defer></script> -->
     <script src="scripts/smoothScroll.js" defer></script>
     <script src="scripts/scrollTop.js" defer></script>
 </head>
@@ -73,48 +71,84 @@
             <div id="container-about">
                 <div class="about-card">
                     <div class="tabs">
-                        <input type="radio" id="tab1" name="tab-control" checked>
-                        <input type="radio" id="tab2" name="tab-control">
+                        <input type="radio" id="tab1" name="tab-control1" checked>
+                        <input type="radio" id="tab2" name="tab-control1">
                         
                         <ul>
                             <li title="Tab 1">
                                 <label for="tab1" role="button">
-                                    <span>Tab 1</span>
+                                    <span>Klangkraft</span>
                                 </label>
                             </li>
                             <li title="Tab 2">
                                 <label for="tab2" role="button">
-                                    <span>Tab 2</span>
+                                    <span>Nona</span>
                                 </label>
                             </li>
                         </ul>
                         
                         <div class="content">
                             <section id="content1">
-                                <h2>Inhalt von Tab 1</h2>
-                                <p>Das ist der Inhalt des ersten Tabs.</p>
+                                <div class="about-card-text">
+                                    <img src="img/chor1.jpg" alt="Logo">
+                                    <p>
+                                        Unser Gesangsverein 1848, Neunhofs ältester Verein, trägt die stolze Last einer reichen Chorgeschichte, die bis ins Jahr 1848 zurückreicht.
+                                        Unsere Freude am Singen ist seitdem unvermindert und hat sich durch die Jahrzehnte hindurch fortgesetzt.<br><br>
+                                        Im Laufe der Zeit hat sich unser Repertoire stetig weiterentwickelt, und wir haben uns musikalisch keine Grenzen gesetzt.
+                                        Genres und Epochen durchqueren wir mit Freude und Hingabe. Unser meist dreistimmiger Chor, bestehend aus Sopran, Alt und einer dritten Stimme,
+                                        besteht aus ungefähr 21 enthusiastischen Mitgliedern.
+                                    </p>
+                                </div>
                             </section>
                             <section id="content2">
-                                <h2>Inhalt von Tab 2</h2>
-                                <p>Das ist der Inhalt des zweiten Tabs.</p>
+                                <div class="about-card-text">
+                                    <img src="img/chor2.jpg" alt="Logo">
+                                    <p>
+                                        
+                                    </p>
+                                </div>
                             </section>
                         </div>
                     </div>
                 </div>
                 <div class="about-card">
-                    <div class="chor-buttons">
-                        <button id="chor-button3">Klangkraft</button>
-                        <button id="chor-button4">Nona</button>
-                    </div>
-                    <div class="about-card-text">
-                        <img src="img/chor2.jpg" alt="Chor">
-                        <p class="about-text">
-                            Wenn Du Lust und Freude am Singen verspürst, laden wir Dich herzlich ein, bei uns vorbeizuschauen! Neue Sängerinnen und Sänger sind bei uns immer willkommen und werden mit offenen Armen empfangen.<br>
-                            <br>
-                            Für alle Fragen und weitere Informationen stehe ich, Ramona Baum, als 1. Vorsitzende gerne zur Verfügung. Schließen Sie sich unserer lebendigen Gemeinschaft an und entdecken Sie die Magie des gemeinsamen Gesangs!<br>
-                            <br>
-                            Chorprobe findet einmal pro Woche, dienstags um 19:00 Uhr in Neunhof bei Lauf a.d. Pegnitz statt.
-                        </p>
+                    <div class="tabs">
+                        <input type="radio" id="tab3" name="tab-control2" checked>
+                        <input type="radio" id="tab4" name="tab-control2">
+                        
+                        <ul>
+                            <li title="Tab 3">
+                                <label for="tab3" role="button">
+                                    <span>Klangkraft</span>
+                                </label>
+                            </li>
+                            <li title="Tab 4">
+                                <label for="tab4" role="button">
+                                    <span>Nona</span>
+                                </label>
+                            </li>
+                        </ul>
+                        
+                        <div class="content">
+                            <section id="content3">
+                                <div class="about-card-text">
+                                    <img src="img/chor3.jpg" alt="Logo">
+                                    <p>
+                                        Wenn Du Lust und Freude am Singen verspürst, laden wir Dich herzlich ein, bei uns vorbeizuschauen! Neue Sängerinnen und Sänger sind bei uns immer willkommen und werden mit offenen Armen empfangen.<br><br>
+                                        Für alle Fragen und weitere Informationen stehe ich, Ramona Baum, als 1. Vorsitzende gerne zur Verfügung. Schließen Sie sich unserer lebendigen Gemeinschaft an und entdecken Sie die Magie des gemeinsamen Gesangs!<br><br>
+                                        Chorprobe findet einmal pro Woche, dienstags um 19:00 Uhr in Neunhof bei Lauf a.d. Pegnitz statt.
+                                    </p>
+                                </div>
+                            </section>
+                            <section id="content4">
+                                <div class="about-card-text">
+                                    <img src="img/chor4.jpg" alt="Logo">
+                                    <p>
+                                        nona
+                                    </p>
+                                </div>
+                            </section>
+                        </div>
                     </div>
                 </div>
         </div>
@@ -122,22 +156,23 @@
         <div class="slideshow-container">
             <div id="slideshow-card">
                 <div class="slide fade">
-                  <img src="img/chor.jpg" alt="Chor">
+                    <img src="img/chor.jpg" alt="Chor">
                 </div>
-              
+                
                 <div class="slide fade">
-                  <img src="img/chor1.jpg" alt="Chor">
+                    <img src="img/chor1.jpg" alt="Chor">
                 </div>
-              
+                
                 <div class="slide fade">
-                  <img src="img/chor2.jpg" alt="Chor">
+                    <img src="img/chor2.jpg" alt="Chor">
                 </div>
-              
+                
                 <!-- Next and previous buttons -->
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
         </div>
+
         <div id="contact">
             <div id="container-contact">
                 <h1>Wie man uns erreichen kann</h1>
