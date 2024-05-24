@@ -22,3 +22,11 @@
     color: blue;
     text-decoration: underline;
 }
+
+footer
+{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
