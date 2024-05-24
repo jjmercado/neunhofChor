@@ -8,11 +8,19 @@ nav
     font-size: 1.5rem;
 }
 
-nav img
+nav a
 {
     padding: 0.5rem;
     margin: auto auto auto 1rem;
     width: 3%;
+    cursor: pointer;
+}
+
+nav a img
+{
+    padding: 0.5rem;
+    margin: auto auto auto 1rem;
+    width: 100%;
     cursor: pointer;
 }
 
@@ -26,15 +34,15 @@ nav ul
     list-style-type: none;
 }
 
-nav a
+nav ul a:hover
 {
+    background-color: rgb(233, 191, 106);
     transition: all 0.5s ease;
 }
 
-nav a:hover
+nav ul a
 {
-    background-color: rgb(233, 191, 106);
+    /* background-color: white; */
     border-radius: 1rem;
-    padding: 0.5rem;
     text-align: center;
 }
