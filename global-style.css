@@ -12,6 +12,7 @@ body
     background-image: url(svg/background.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-size: 1.5rem;
 }
 
 a
