@@ -14,10 +14,8 @@
 .text-container
 {
     display: flex;
-    margin-left: auto;
+    flex: 1;
     flex-direction: column;
-    width: 50%;
-    height: 80%;
 }
 
 .barline-container img
@@ -27,10 +25,14 @@
 
 .svg-container
 {
-    margin: auto;
-    height: 22%;
-    width: 50%;
-    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-image: url(../svg/goldenstripe.svg);
 }
 
@@ -50,4 +52,9 @@
     justify-content: center;
     margin-top: 10rem;
     transition: font-size 1s;
+}
+
+.test
+{
+    display: flex;
 }
