@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chorgemeinschaft Neunhof</title>
     <link rel="stylesheet" href="global-style.css">
+    <link rel="stylesheet" href="styles/card.css">
     <link rel="stylesheet" href="styles/scrollDownArrow.css">
     <link rel="stylesheet" href="styles/slider.css">
     <link rel="stylesheet" href="styles/about.css">
@@ -30,19 +31,18 @@
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">Über uns</a></li>
-            <!-- <li><a href="#concerts">Konzerte</a></li> -->
+            <li><a href="#concerts">Konzerte</a></li>
             <li><a href="#contact">Kontakt</a></li>
         </ul>
     </nav>
 
-    
     <div id="home">
         <div class="container-home">
             <div class="barline-container">
                 <img src="svg/barline.svg"/>
                 <div class="test">
                     <div class="slideshow-container">
-                        <div id="slideshow-card">
+                        <div class="card slideshow">
                             <div class="slide fade">
                                 <img src="img/konzerte.png" alt="Chor">
                             </div>
@@ -121,7 +121,7 @@
             <div></div>
         
             <div id="container-about">
-                <div class="about-card">
+                <div class="card about">
                     <div class="tabs">
                         <input type="radio" id="tab1" name="tab-control1" checked>
                         <input type="radio" id="tab2" name="tab-control1">
@@ -174,7 +174,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="about-card">
+                <div class="card about">
                     <div class="tabs">
                         <input type="radio" id="tab3" name="tab-control2" checked>
                         <input type="radio" id="tab4" name="tab-control2">
@@ -211,8 +211,7 @@
                                         <span>Lust auf Singen? Komm zu uns! </span> <br>
                                         Ein Chor lebt von seinen Sängerinnen und Sängern, deshalb freuen wir uns immer über neue, singbegeisterte Mitglieder. Es ist jeder willkommen, egal ob mit oder ohne Chor-Erfahrung. 
                                         Komm doch einfach mal zu einer Chorprobe und schnuppere Chorluft! 
-                                        Der Kinderchor „NONA“ probt immer dienstags von 16:30 bis 17:30 im Feuerwehrhaus in Neunhof. Mitmachen können Kinder im Alter von 4 bis 14 Jahren.  
-                                        Der Chor „Klangkraft“ probt ebenfalls dienstags im Feuerwehrhaus Neunhof. Die Probe dauert 1,5 Stunden und beginnt um 19:00. Mitsingen können alle ab 15 Jahren. 
+                                        Der Kinderchor „NONA“ probt immer dienstags von 16:30 bis 17:30 im Feuerwehrhaus in Neunhof. Mitmachen können Kinder im Alter von 4 bis 14 Jahren.
                                         Bei Fragen komm gerne auf uns persönlich zu oder melde dich per Mail, Instagram oder Facebook bei uns. 
                                         & wer nicht singen will, darf hören!
                                     </p>
@@ -221,6 +220,12 @@
                         </div>
                     </div>
                 </div>
+        </div>
+
+        <div id="concerts">
+            <div class="card concerts">
+                <img src="img/konzerte.png" alt="Konzert Termine"/>
+            </div>
         </div>
 
         <div id="contact">

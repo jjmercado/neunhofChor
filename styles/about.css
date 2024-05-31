@@ -19,27 +19,12 @@
     color: #000;
 }
 
-.about-card img
+.about img
 {
     width: 50%;
     height: 100%;
     margin: auto;
     border-radius: 2rem;
-}
-
-.about-card
-{
-    display: flex;
-    color: #fff;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: auto;
-    background-color: rgb(255, 221, 152);
-    width: 80%;
-    padding: 2rem ;
-    /* gap: 2rem; */
-    border-radius: 2rem;
-    box-shadow: 5px 10px 15px lightgray;
 }
 
 #container-text-scroll

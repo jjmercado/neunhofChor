@@ -8,14 +8,10 @@
   margin: 2rem;
 }
 
-#slideshow-card
+.slideshow
 {
-  border-radius: 2rem;
-  background-color: rgb(255, 221, 152);
-  box-shadow: 5px 10px 15px lightgray;
-  width: 100%;
-  padding: 2rem;
   position: relative;
+  width: 100%;
 }
 
 /* Hide the images by default */
