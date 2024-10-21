@@ -45,6 +45,11 @@ a
     background-color: lightgray;
 }
 
+h1
+{
+    font-size: 3rem;
+}
+
 
 /* Gängige Bildschirmgrößen
 Mobil: 360 x 640
