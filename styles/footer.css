@@ -1,41 +1,89 @@
-footer
+@media (min-width: 1300px)
 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 221, 152);
-    height: 15rem;
-    gap: 1rem;
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 221, 152);
+        height: 15rem;
+        gap: 1rem;
+    }
+    
+    footer div
+    {
+        display: flex;
+        gap: 2rem;
+    }
+    
+    footer p
+    {
+        color: #000;
+        font-size: 1rem;
+        margin: 0;
+    }
+    
+    footer a
+    {
+        color: #000;
+    }
+    
+    .brands-container
+    {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .brands-container img
+    {
+        width: 3rem;
+        padding: 1rem;
+    }
 }
 
-footer div
+@media (min-width: 320px) and (max-width: 768px)
 {
-    display: flex;
-    gap: 2rem;
-}
-
-footer p
-{
-    color: #000;
-    font-size: 1rem;
-    margin: 0;
-}
-
-footer a
-{
-    color: #000;
-}
-
-.brands-container
-{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.brands-container img
-{
-    width: 3rem;
-    padding: 1rem;
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 221, 152);
+        height: 15rem;
+        gap: 1rem;
+    }
+    
+    footer div
+    {
+        display: flex;
+        gap: 2rem;
+    }
+    
+    footer p
+    {
+        color: #000;
+        font-size: 1rem;
+        margin: 0;
+    }
+    
+    footer a
+    {
+        color: #000;
+    }
+    
+    .brands-container
+    {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .brands-container img
+    {
+        width: 3rem;
+        padding: 1rem;
+    }
 }

@@ -72,12 +72,17 @@
     }
 }
 
-@media (max-width: 425px)
+@media (min-width: 320px) and (max-width: 768px)
 {
     #home
     {
-        margin-top: 8rem;
-        /* color: white; */
+        margin-top: 10rem;
+    }
+
+    .container-home 
+    {
+        display: flex;
+        /* height: 100vh; */
     }
 
     .text-container
@@ -87,7 +92,7 @@
         flex-wrap: wrap;
         width: 100%;
         gap: .5rem;
-        margin: auto;
+        margin-top: 5rem;
         justify-content: center;
     }
 

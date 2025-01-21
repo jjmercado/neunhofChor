@@ -52,14 +52,17 @@
 }
 
 
-@media (max-width: 425px)
+@media (min-width: 320px) and (max-width: 768px)
 {
+
     nav
     {
         display: flex;
-        width: 425px;
+        justify-content: end;
+        width: 100%;
         position: fixed;
-        margin: .5rem;
+        z-index: 1;
+        background-color: white;
     }
 
     nav a
@@ -68,9 +71,10 @@
         justify-content: center;
         width: 30%;
     }
-
+    
     nav a img
     {
+        padding-left: 1rem;
         margin: auto;
         width: 100%;
     }
@@ -83,12 +87,14 @@
         gap: 2rem;
         list-style-type: none;
     }
-
+    
     nav ul a
     {
         background-color: rgb(233, 191, 106);
         transition: all 0.5s ease;
         border-radius: 2rem;
         width: 7rem;
+        padding: .1rem;
+        font-size: 1.0rem;
     }
 }
