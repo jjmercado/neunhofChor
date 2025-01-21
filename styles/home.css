@@ -72,11 +72,76 @@
     }
 }
 
-@media (max-width: 412px)
+@media (max-width: 425px)
 {
     #home
     {
-        margin-top: 25rem;
+        margin-top: 8rem;
         /* color: white; */
+    }
+
+    .text-container
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: .5rem;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .barline-container img
+    {
+        width: 100%;
+    }
+
+    .svg-container
+    {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        height: 5rem;
+        width: 10rem;
+        /* gap: .5; */
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../svg/goldenstripe.svg);
+    }
+
+    .text-card
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .text-card a
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* color: white; */
+        font-size: 1.5rem;
+    }
+
+    #text-scroll
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 10rem;
+        transition: font-size 1s;
+    }
+
+    .test
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 }

@@ -72,3 +72,78 @@
     to {opacity: 1}
   }
 }
+
+@media (max-width: 425px)
+{
+    /* Slideshow container */
+    .slideshow-container 
+    {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      /* margin: 2rem; */
+    }
+    
+    .slideshow
+    {
+      position: relative;
+      width: 100%;
+    }
+    
+    /* Hide the images by default */
+    .slide 
+    {
+      display: none;
+    }
+    
+    .slide img
+    {
+      width: 100vw;
+      border-radius: 2rem;
+    }
+    
+    /* Next & previous buttons */
+    #prev, #next 
+    {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      /* margin-left: 10%; */
+      /* margin-right: 3%; */
+      margin-top: -22px;
+      padding: 16px;
+      color: rgb(145, 0, 0);
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    #next 
+    {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    #prev:hover, #next:hover 
+    {
+      background-color: rgba(0,0,0,0.8);
+      color: white;
+    }
+    
+    /* Fading animation */
+    .fade 
+    {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade 
+    {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+}

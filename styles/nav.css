@@ -59,6 +59,7 @@
         display: flex;
         width: 425px;
         position: fixed;
+        margin: .5rem;
     }
 
     nav a
