@@ -53,17 +53,18 @@
     }
 }
 
-@media (max-width: 412px)
+@media (max-width: 425px)
 {
     body
     {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     a
     {
-        font-size: 5rem;
+        font-size: 1.5rem;
         text-decoration: none;
         color: black;
     }
