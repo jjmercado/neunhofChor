@@ -1,53 +1,72 @@
-body
+@media (min-width: 1300px)
 {
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    font-family: railway;
-    background-color: white;
-    color: black;
-    font-family: Arial, 'Arial Narrow';
-    background-image: url(svg/background.svg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
+    body
+    {
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        font-family: railway;
+        background-color: white;
+        color: black;
+        font-family: Arial, 'Arial Narrow';
+        background-image: url(svg/background.svg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+    
+    a
+    {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: black;
+    }
+    
+    #getToTopButton
+    {
+        display: none;
+        position: fixed;
+        bottom: 1rem;
+        width: 4rem;
+        right: 2rem;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: darkgrey;
+        color: black;
+        cursor: pointer;
+        padding: 1rem;
+        border-radius: 1rem;
+        font-size: 2rem;  
+    }
+    
+    #getToTopButton:hover
+    {
+        background-color: lightgray;
+    }
+    
+    h1
+    {
+        font-size: 3rem;
+    }
 }
 
-a
+@media (max-width: 412px)
 {
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: black;
-}
+    body
+    {
+        display: flex;
+        flex-direction: column;
+    }
 
-#getToTopButton
-{
-    display: none;
-    position: fixed;
-    bottom: 1rem;
-    width: 4rem;
-    right: 2rem;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: darkgrey;
-    color: black;
-    cursor: pointer;
-    padding: 1rem;
-    border-radius: 1rem;
-    font-size: 2rem;  
-}
-
-#getToTopButton:hover
-{
-    background-color: lightgray;
-}
-
-h1
-{
-    font-size: 3rem;
+    a
+    {
+        font-size: 5rem;
+        text-decoration: none;
+        color: black;
+    }
 }
 
 

@@ -1,49 +1,99 @@
-nav
+@media (min-width: 1300px)
 {
-    display: flex;
-    justify-content: end;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    font-size: 1.5rem;
-    background-color: white;
+    nav
+    {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        font-size: 1.5rem;
+        background-color: white;
+    }
+    
+    nav a
+    {
+        padding: 0.5rem;
+        margin: auto auto auto 1rem;
+        width: 3%;
+        cursor: pointer;
+    }
+    
+    nav a img
+    {
+        padding: 0.5rem;
+        margin: auto auto auto 1rem;
+        width: 100%;
+        cursor: pointer;
+    }
+    
+    nav ul
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3rem;
+        margin-right: 2rem;
+        list-style-type: none;
+    }
+    
+    nav ul a:hover
+    {
+        background-color: rgb(233, 191, 106);
+        transition: all 0.5s ease;
+    }
+    
+    nav ul a
+    {
+        /* background-color: white; */
+        border-radius: 1rem;
+        text-align: center;
+    }
 }
 
-nav a
-{
-    padding: 0.5rem;
-    margin: auto auto auto 1rem;
-    width: 3%;
-    cursor: pointer;
-}
 
-nav a img
+@media (max-width: 412px)
 {
-    padding: 0.5rem;
-    margin: auto auto auto 1rem;
-    width: 100%;
-    cursor: pointer;
-}
+    nav
+    {
+        display: flex;
+        width: 100%;
+        position: fixed;
+    }
 
-nav ul
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 3rem;
-    margin-right: 2rem;
-    list-style-type: none;
-}
+    nav a
+    {
+        display: flex;
+        justify-content: center;
+    }
 
-nav ul a:hover
-{
-    background-color: rgb(233, 191, 106);
-    transition: all 0.5s ease;
-}
+    nav a img
+    {
+        margin: auto;
+        width: 50%;
+    }
 
-nav ul a
-{
-    /* background-color: white; */
-    border-radius: 1rem;
-    text-align: center;
+    nav ul
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        margin-right: 2rem;
+        list-style-type: none;
+    }
+
+    nav ul a
+    {
+        background-color: rgb(233, 191, 106);
+        transition: all 0.5s ease;
+        border-radius: 2rem;
+    }
+
+    nav ul li
+    {
+        width: 25rem;
+    }
 }
