@@ -38,7 +38,8 @@
 {
     #imprint
     {
-        margin-top: 7rem;
+        margin-top: 9rem;
+        margin-bottom: 4rem;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -66,7 +67,7 @@
     {
         width: 100%;
         display: flex;
-        position: fixed;
+        position: sticky;
         bottom: 0;
     }
 }
