@@ -1,32 +1,72 @@
-#imprint
+@media (min-width: 1300px)
 {
-    margin-top: 7rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-self: center;
-    align-items: center;
+    #imprint
+    {
+        margin-top: 7rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-self: center;
+        align-items: center;
+    }
+    
+    .card
+    {
+        border-radius: 2rem;
+        background-color: rgb(255, 221, 152);
+        box-shadow: 5px 10px 15px lightgray;
+        width: 80%;
+        padding: 2rem;
+    }
+    
+    .card a
+    {
+        font-size: 1.5rem;
+        color: blue;
+        text-decoration: underline;
+    }
+    
+    footer
+    {
+        width: 100%;
+        display: flex;
+        position: fixed;
+        bottom: 0;
+    }
 }
 
-.card
+@media (min-width: 320px) and (max-width: 768px)
 {
-    border-radius: 2rem;
-    background-color: rgb(255, 221, 152);
-    box-shadow: 5px 10px 15px lightgray;
-    width: 80%;
-    padding: 2rem;
-}
-
-.card a
-{
-    font-size: 1.5rem;
-    color: blue;
-    text-decoration: underline;
-}
-
-footer
-{
-    width: 100%;
-    display: flex;
-    position: fixed;
-    bottom: 0;
+    #imprint
+    {
+        margin-top: 7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-self: center;
+        align-items: center;
+    }
+    
+    .card
+    {
+        border-radius: 2rem;
+        background-color: rgb(255, 221, 152);
+        box-shadow: 5px 10px 15px lightgray;
+        width: 80%;
+        padding: 2rem;
+    }
+    
+    .card a
+    {
+        font-size: 1.0rem;
+        color: blue;
+        text-decoration: underline;
+    }
+    
+    footer
+    {
+        width: 100%;
+        display: flex;
+        position: fixed;
+        bottom: 0;
+    }
 }
