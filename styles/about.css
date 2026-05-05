@@ -1,46 +1,39 @@
-@media (min-width: 1300px)
-{
+@media (min-width: 1300px) {
 
-    #about
-    {
+    #about {
         display: flex;
         flex-direction: column;
         gap: 5rem;
     }
-    
-    #container-about
-    {
+
+    #container-about {
         display: flex;
         flex-direction: column;
         gap: 5rem;
     }
-    
-    .about-text
-    {
+
+    .about-text {
         font-size: 1.8rem;
         color: #000;
     }
-    
-    .about img
-    {
+
+    .about img {
         width: 50%;
         height: 100%;
         margin: auto;
         border-radius: 2rem;
+        object-fit: cover;
     }
-    
-    #container-text-scroll
-    {
+
+    #container-text-scroll {
         margin: 0 3rem 0 3rem;
     }
-    
-    #text-scroll
-    {
+
+    #text-scroll {
         text-align: center;
     }
-    
-    .about-card-text
-    {
+
+    .about-card-text {
         display: flex;
         gap: 2rem;
         padding: 2rem;
@@ -48,85 +41,78 @@
         background-color: rgb(248, 199, 100);
         font-size: 1.5rem;
     }
-    
-    .about-card-text a
-    {
+
+    .about-card-text>* {
+        flex: 1 1 50%;
+        max-width: 50%;
+    }
+
+    .about-card-text a {
         color: blue;
         text-decoration: underline;
     }
-    
-    .about-card-text p
-    {
+
+    .about-card-text p {
         margin: auto;
         text-align: justify;
     }
-    
-    .about-card-text-rounded
-    {
+
+    .about-card-text-rounded {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 2rem;
         padding: 2rem;
         border-radius: 2rem;
         background-color: rgb(248, 199, 100);
         font-size: 1.5rem;
     }
-    
-    .about-card-text-rounded img
-    {
+
+    .about-card-text-rounded img {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 2rem;
     }
-    
-    .about-card-text-rounded p
-    {
+
+    .about-card-text-rounded p {
         text-align: justify;
     }
 }
 
-@media (min-width: 320px) and (max-width: 768px)
-{
-    #about
-    {
+@media (max-width: 1299px) {
+    #about {
         display: flex;
         flex-direction: column;
         gap: 2rem;
     }
-    
-    #container-about
-    {
+
+    #container-about {
         display: flex;
         flex-direction: column;
         gap: 2rem;
     }
-    
-    .about-text
-    {
+
+    .about-text {
         font-size: 1.8rem;
         color: #000;
     }
-    
-    .about img
-    {
+
+    .about img {
         width: 100%;
         margin: auto;
         border-radius: 2rem;
     }
-    
-    #container-text-scroll
-    {
+
+    #container-text-scroll {
         margin: 4rem 2rem 0 2rem;
     }
-    
-    #text-scroll
-    {
+
+    #text-scroll {
         text-align: center;
     }
-    
-    .about-card-text
-    {
+
+    .about-card-text {
         display: flex;
         flex-direction: column;
         gap: 2rem;
@@ -135,22 +121,19 @@
         background-color: rgb(248, 199, 100);
         font-size: 1.0rem;
     }
-    
-    .about-card-text a
-    {
+
+    .about-card-text a {
         color: blue;
         text-decoration: underline;
         font-size: 1.0rem;
     }
-    
-    .about-card-text p
-    {
+
+    .about-card-text p {
         margin: auto;
         text-align: justify;
     }
-    
-    .about-card-text-rounded
-    {
+
+    .about-card-text-rounded {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -159,17 +142,15 @@
         background-color: rgb(248, 199, 100);
         font-size: 1.0rem;
     }
-    
-    .about-card-text-rounded img
-    {
+
+    .about-card-text-rounded img {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding-top: .5rem;
     }
-    
-    .about-card-text-rounded p
-    {
+
+    .about-card-text-rounded p {
         text-align: justify;
     }
 }

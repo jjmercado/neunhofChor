@@ -1,3 +1,14 @@
+.copyable {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    transition: color 0.3s;
+}
+
+.copyable:hover {
+    color: rgb(233, 191, 106);
+}
+
 @media (min-width: 1300px)
 {
     body
@@ -7,10 +18,9 @@
         overflow-x: hidden;
         margin: 0;
         padding: 0;
-        font-family: railway;
+        font-family: 'Raleway', sans-serif;
         background-color: white;
         color: black;
-        font-family: Arial, 'Arial Narrow';
         background-image: url(svg/background.svg);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -53,7 +63,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 1300px)
+@media (max-width: 1299px)
 {
     /* body
     {
@@ -70,10 +80,9 @@
         overflow-x: hidden;
         margin: 0;
         padding: 0;
-        font-family: railway;
+        font-family: 'Raleway', sans-serif;
         background-color: white;
         color: black;
-        font-family: Arial, 'Arial Narrow';
         background-image: url(svg/background.svg);
         background-repeat: no-repeat;
         background-attachment: fixed;

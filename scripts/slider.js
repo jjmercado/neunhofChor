@@ -7,21 +7,18 @@ showSlides(slideIndex);
 startAutoSlide();
 
 // Next/previous controls
-function plusSlides(n) 
-{
+function plusSlides(n) {
   showSlides(slideIndex += n);
   pauseAutoSlide();
 }
 
 // Thumbnail image controls
-function currentSlide(n) 
-{
+function currentSlide(n) {
   showSlides(slideIndex = n);
   pauseAutoSlide();
 }
 
-function showSlides(n) 
-{
+function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("slide");
   if (n > slides.length) {
@@ -36,8 +33,7 @@ function showSlides(n)
   slides[slideIndex - 1].style.display = "flex";
 }
 
-function startAutoSlide() 
-{
+function startAutoSlide() {
   // Stellen Sie sicher, dass kein alter Timer läuft
   clearInterval(autoSlideTimer);
   autoSlideTimer = setInterval(() => {
@@ -45,8 +41,7 @@ function startAutoSlide()
   }, autoSlideInterval);
 }
 
-function pauseAutoSlide() 
-{
+function pauseAutoSlide() {
   // Timer für automatisches Weitersliden anhalten
   clearInterval(autoSlideTimer);
   // Nach der Pause den Timer neu starten

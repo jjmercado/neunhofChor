@@ -1,34 +1,29 @@
-@media (min-width: 1300px)
-{
-    nav
-    {
+@media (min-width: 1300px) {
+    nav {
         display: flex;
         justify-content: end;
         width: 100%;
         position: fixed;
-        z-index: 1;
+        z-index: 1000;
         font-size: 1.5rem;
         background-color: white;
     }
-    
-    nav a
-    {
+
+    nav a {
         padding: 0.5rem;
         margin: auto auto auto 1rem;
         width: 3%;
         cursor: pointer;
     }
-    
-    nav a img
-    {
+
+    nav a img {
         padding: 0.5rem;
         margin: auto auto auto 1rem;
         width: 100%;
         cursor: pointer;
     }
-    
-    nav ul
-    {
+
+    nav ul {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -36,15 +31,13 @@
         margin-right: 2rem;
         list-style-type: none;
     }
-    
-    nav ul a:hover
-    {
+
+    nav ul a:hover {
         background-color: rgb(233, 191, 106);
         transition: all 0.5s ease;
     }
-    
-    nav ul a
-    {
+
+    nav ul a {
         /* background-color: white; */
         border-radius: 1rem;
         text-align: center;
@@ -52,44 +45,40 @@
 }
 
 
-@media (min-width: 320px) and (max-width: 768px)
-{
+@media (max-width: 1299px) {
 
-    nav
-    {
+    nav {
         display: flex;
         justify-content: end;
         width: 100%;
         position: fixed;
-        z-index: 1;
+        z-index: 1000;
         background-color: white;
     }
 
-    nav a
-    {
+    nav a {
         display: flex;
         justify-content: center;
         width: 30%;
+        max-width: 100px;
+        margin-right: auto;
     }
-    
-    nav a img
-    {
+
+    nav a img {
         padding-left: 1rem;
         margin: auto;
         width: 100%;
     }
 
-    nav ul
-    {
+    nav ul {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 2rem;
         list-style-type: none;
     }
-    
-    nav ul a
-    {
+
+    nav ul a {
         background-color: rgb(233, 191, 106);
         transition: all 0.5s ease;
         border-radius: 2rem;

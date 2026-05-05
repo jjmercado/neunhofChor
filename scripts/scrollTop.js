@@ -21,3 +21,18 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   document.scrollingElement.scrollTop = 0;
 }
+
+// Copy text to clipboard
+function copyToClipboard(text, element) {
+    navigator.clipboard.writeText(text).then(() => {
+        const originalText = element.innerHTML;
+        element.innerHTML = "<em>Kopiert! ✓</em>";
+        element.style.color = "green";
+        setTimeout(() => {
+            element.innerHTML = originalText;
+            element.style.color = "";
+        }, 1500);
+    }).catch(err => {
+        console.error('Failed to copy: ', err);
+    });
+}
